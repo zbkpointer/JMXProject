@@ -55,6 +55,10 @@ public class Hello extends NotificationBroadcasterSupport implements HelloMBean{
         sendNotification(n);
     }
 
+    /***
+    * @Description: JMX通知机制
+    * @return: javax.management.MBeanNotificationInfo[]
+    **/
     @Override
     public MBeanNotificationInfo[] getNotificationInfo() {
         String[] types = new String[]{
