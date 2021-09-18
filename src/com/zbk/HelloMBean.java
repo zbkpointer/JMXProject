@@ -2,7 +2,7 @@ package com.zbk;
 
 /**
  * @Author: 张博康
- * @Description:
+ * @Description: 接口后缀必须为MBean，实现类名必须是去掉MBean前的字符串
  * @Date: 2021/9/18 9:04
  * @Version: 1.0.0
  */
