@@ -23,7 +23,7 @@ public class Main {
 //    }
 
     /**
-    * @Description: 运行MXBean
+    * @Description: 运行MXBean，该机制更为灵活
     **/
     public static void main(String[] args) throws MalformedObjectNameException, NotCompliantMBeanException, InstanceAlreadyExistsException, MBeanRegistrationException, InterruptedException {
 
